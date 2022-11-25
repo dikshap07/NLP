@@ -1,12 +1,12 @@
 # pip install nltk
-
-
+import nltk
+nltk.download('wordnet')
 
 from nltk.stem.wordnet import WordNetLemmatizer
-
+from nltk.stem.porter import PorterStemmer
 lem = WordNetLemmatizer()
 
-from nltk.stem.porter import PorterStemmer
+
 
 stem = PorterStemmer()
 
