@@ -25,3 +25,9 @@ print(res_)
 #to search a pattern and replace with a new sub string
 res_ = re.sub(r"pattern","new","string pattern string pattern",)
 print(res_)
+
+#to match anywhere and returns an iterator yielding match objects matching the
+# regex pattern in a string instead of a list.
+
+target_string = "Emma is a basketball player who was born on June 17, 1993. She played 112 matches with a scoring average of 26.12 points per game. Her weight is 51 kg."
+res = re.finditer(r"\d{2}", target_string)
