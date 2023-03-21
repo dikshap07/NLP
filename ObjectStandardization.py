@@ -19,4 +19,8 @@ def lookup_words(input_text):
 
     return new_text
 
-print(lookup_words("RT this is a retweeted tweet by elon who made me lol and smh with luv"))
+
+
+if __name__ == '__main__':
+
+    print(lookup_words("RT this is a retweeted tweet by elon who made me lol and smh with luv"))
