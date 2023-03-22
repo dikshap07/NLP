@@ -6,8 +6,10 @@ This project is an NLP project that aims to classify US patent documents based o
 ## Requirements
 To run this project, you need to install the requirements specified in the requirements.txt file. You can install them by running the following command in your terminal or command prompt:
 
-Copy code
+```
 pip install -r requirements.txt
+```
+
 You also need to have a Kaggle account to access the dataset used in this project. To access the dataset, you need to download the kaggle.json file from your Kaggle account and save it in the same location as your Jupyter notebook or Python script.
 
 ## Dataset
